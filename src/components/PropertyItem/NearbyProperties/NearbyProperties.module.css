@@ -1,0 +1,11 @@
+.nearby_property {
+  display: flex;
+  margin: 4px 0;
+  background-color: #f8f8fa;
+  padding: 20px;
+}
+
+.nearby_property:hover{
+    background-color: rgb(230, 230, 230);
+    cursor: pointer;
+}

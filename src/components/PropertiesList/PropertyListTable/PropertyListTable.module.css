@@ -1,0 +1,32 @@
+table {
+  width: 100%;
+}
+
+th {
+  color: #bc3484;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+  text-transform: uppercase;
+  padding: 10px;
+  text-align: start;
+  background-color: #fff;
+  border-bottom: 3px solid #f8f8fa;
+}
+
+td {
+  background-color: #fff;
+  padding: 10px;
+  border-bottom: 3px solid #f8f8fa;
+  color: #3d3c50;
+  font-weight: 500;
+}
+
+td:first-child {
+  text-align: start;
+}
+
+tr:hover td {
+  cursor: pointer;
+  background-color: #f8f8fa;
+}

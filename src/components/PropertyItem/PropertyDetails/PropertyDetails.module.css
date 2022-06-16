@@ -1,0 +1,19 @@
+.property_details_container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.details_block{
+    width: 200px;
+}
+
+.details_block:nth-child(2){
+    margin-right: 50px;
+}
+
+.details_block_contacts{
+    word-wrap: break-word;
+}
